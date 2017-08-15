@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediaChooser</string>
+    <string name="image"> 图片 </string>
+    <string name="video"> 视频 </string>
+    <string name="done"> 完成 </string>
+    <string name="images_tab"> 已选中 </string>
+    <string name="videos_tab"> 已选中 </string>
+    <string name="max_limit_reach_error"> 超过最大可选择数 </string>
+    <string name="max_limit_file"> 最大限度 </string>
+    <string name="please_wait_text"> 请等待</string>
+    <string name="refreshing"> 刷新中</string>
+    <string name="file_size_exceed"> 文件大小超过限制 </string>
+    <string name="selected_file_size">  选择的文件大小为 : </string>
+    <string name="mb"> MB</string>
+    <string name="please_select_file"> 请选择或拍摄一个文件.</string>
+    <string name="file"> 个文件. </string>
+    <string name="files"> 个文件. </string>
+    <string name="no_media_file_available">没有可获取的文件.</string>
+    <string name="title_activity_home_screen_media_chooser">HomeScreenMediaChooser</string>
+
+
+</resources>
