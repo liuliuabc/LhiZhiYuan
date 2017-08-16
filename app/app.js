@@ -15,7 +15,6 @@ import MyAlertView from './component/MyAlertView';
 import MySelectAlertView from './component/MySelectAlertView';
 
 export const STATUS_BAR_HEIGHT = (Platform.OS === 'ios' ? 20 : 25)
-//export const ABOVE_LOLIPOP = Platform.Version && Platform.Version > 19
 var _navigator;
 import * as  ToastUtil from './utils/ToastUtil';
 const  dismissKeyboard = require('dismissKeyboard');
