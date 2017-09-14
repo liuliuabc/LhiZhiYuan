@@ -21,7 +21,7 @@ const  dismissKeyboard = require('dismissKeyboard');
 
 class App extends React.Component {
     constructor(props) {
-        super(props);errcode
+        super(props);
         this.renderScene = this.renderScene.bind(this);
         this.goBack = this.goBack.bind(this);
         this.navigator = this.navigator.bind(this);
@@ -47,6 +47,7 @@ class App extends React.Component {
     removeListener(){
         if(this.backlistener){
             this.backlistener.remove();
+            BackAndroid.removeEventListener('hardwareBackPress', this.goBack);
         }
         if(this.navigatorlistener){
             this.navigatorlistener.remove();
@@ -88,7 +89,7 @@ class App extends React.Component {
         }
     }
     goBack(){
-        if (_navigator && _navigator.getCurrentRoutes().length > 1) {
+        if(_navigator && _navigator.getCurrentRoutes().length > 1) {
             _navigator.pop();
             return true;
         }

@@ -153,8 +153,6 @@ class AddContent extends React.Component{
                    // var {navigator}=mycontext.props;
                     //navigator.pop();
                     alert( xhr.responseText);
-
-
                     // alert("成功");
                 }else{
                   //  completefun(false)

@@ -63,7 +63,6 @@ export  var urls={
     login:'/UserAction/login',
     register:'/UserAction/register',
     resetpassword:'/UserAction/updatePassword',
-    validatenickname:'/BaseAction/validateNickName',
     getLabels:"/ContentAction/getLabels",
     addContent:"/ContentAction/addContent",
     deleteContent:"/ContentAction/deleteContent",
